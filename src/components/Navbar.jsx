@@ -33,12 +33,9 @@ const Navbar = () => {
   useEffect(() => {
     if (screenSize <= 900) {
       setActiveMenu(false)
-    }else{
+    } else {
       setActiveMenu(true)
-
     }
-
-  
   }, [screenSize, setActiveMenu])
 
   return (
@@ -73,7 +70,7 @@ const Navbar = () => {
         />
         <TooltipComponent content="Perfil" position="BottomCenter">
           <div
-            className="flex items-center fap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
+            className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
             onClick={() => handleClick('userProfile')}
           >
             <img

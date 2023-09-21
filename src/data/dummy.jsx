@@ -97,46 +97,49 @@ const gridEmployeeCountry = props => (
 export const EditorData = () => (
   <div>
     <h3>
-      Try React React has been designed from the start for gradual adoption, and
-      you can use as little or as much React as you need. Whether you want to
-      get a taste of React, add some interactivity to a simple HTML page, or
-      start a complex React-powered app, the links in this section will help you
-      get started. Online Playgrounds If you’re interested in playing around
-      with React, you can use an online code playground. Try a Hello World
-      template on CodePen, CodeSandbox, or Stackblitz. If you prefer to use your
-      own text editor, you can also download this HTML file, edit it, and open
-      it from the local filesystem in your browser. It does a slow runtime code
-      transformation, so we’d only recommend using this for simple demos. Add
-      React to a Website You can add React to an HTML page in one minute. You
-      can then either gradually expand its presence, or keep it contained to a
-      few dynamic widgets. Create a New React App When starting a React project,
-      a simple HTML page with script tags might still be the best option. It
-      only takes a minute to set up! As your application grows, you might want
-      to consider a more integrated setup. There are several JavaScript
-      toolchains we recommend for larger applications. Each of them can work
-      with little to no configuration and lets you take full advantage of the
-      rich React ecosystem. Learn how. Learn React People come to React from
-      different backgrounds and with different learning styles. Whether you
-      prefer a more theoretical or a practical approach, we hope you’ll find
-      this section helpful. If you prefer to learn by doing, start with our
-      practical tutorial. If you prefer to learn concepts step by step, start
-      with our guide to main concepts. Like any unfamiliar technology, React
-      does have a learning curve. With practice and some patience, you will get
-      the hang of it. First Examples The React homepage contains a few small
-      React examples with a live editor. Even if you don’t know anything about
-      React yet, try changing their code and see how it affects the result.
-      React for Beginners If you feel that the React documentation goes at a
-      faster pace than you’re comfortable with, check out this overview of React
-      by Tania Rascia. It introduces the most important React concepts in a
-      detailed, beginner-friendly way. Once you’re done, give the documentation
-      another try! React for Designers If you’re coming from a design
-      background, these resources are a great place to get started. JavaScript
-      Resources The React documentation assumes some familiarity with
-      programming in the JavaScript language. You don’t have to be an expert,
-      but it’s harder to learn both React and JavaScript at the same time. We
-      recommend going through this JavaScript overview to check your knowledge
-      level. It will take you between 30 minutes and an hour but you will feel
-      more confident learning React.
+      Experimente o React O React foi projetado desde o início para uma adoção
+      gradual, e você pode usar tanto ou tão pouco React quanto precisar. Se
+      você quiser experimentar o React, adicionar alguma interatividade a uma
+      página HTML simples, ou iniciar um aplicativo complexo alimentado pelo
+      React, os links nesta seção irão ajudá-lo a começar. Playgrounds Online Se
+      você estiver interessado em brincar com o React, você pode usar um
+      ambiente de código online. Experimente um modelo de Hello World no
+      CodePen, CodeSandbox ou Stackblitz. Se preferir usar seu próprio editor de
+      texto, você também pode baixar este arquivo HTML, editá-lo e abrir no
+      navegador a partir do sistema de arquivos local. Ele faz uma transformação
+      de código em tempo de execução lenta, então só recomendamos usar isso para
+      demos simples. Adicionar React a um Website Você pode adicionar o React a
+      uma página HTML em um minuto. Você então pode expandir gradualmente sua
+      presença, ou mantê-lo em alguns widgets dinâmicos. Criar um Novo
+      Aplicativo React Ao iniciar um projeto React, uma página HTML simples com
+      tags de script ainda pode ser a melhor opção. Leva apenas um minuto para
+      configurar! Conforme sua aplicação cresce, você pode querer considerar uma
+      configuração mais integrada. Existem várias ferramentas JavaScript que
+      recomendamos para aplicativos maiores. Cada uma delas pode funcionar com
+      pouca ou nenhuma configuração e permite que você aproveite ao máximo o
+      rico ecossistema do React. Aprenda como. Aprenda React As pessoas vêm para
+      o React de diferentes origens e com diferentes estilos de aprendizado.
+      Quer você prefira uma abordagem mais teórica ou prática, esperamos que
+      você ache esta seção útil. Se preferir aprender fazendo, comece com nosso
+      tutorial prático. Se preferir aprender conceitos passo a passo, comece com
+      nosso guia para os conceitos principais. Como qualquer tecnologia
+      desconhecida, o React tem uma curva de aprendizado. Com prática e
+      paciência, você vai pegar o jeito. Primeiros Exemplos A página inicial do
+      React contém alguns pequenos exemplos de React com um editor ao vivo.
+      Mesmo que você não saiba nada sobre o React ainda, tente mudar o código
+      deles e veja como afeta o resultado. React para Iniciantes Se você acha
+      que a documentação do React avança em um ritmo mais rápido do que você se
+      sente confortável, confira esta visão geral do React por Tania Rascia. Ele
+      introduz os conceitos mais importantes do React de uma maneira detalhada e
+      amigável para iniciantes. Quando terminar, dê mais uma olhada na
+      documentação! React para Designers Se você vem de um background de design,
+      esses recursos são um ótimo ponto de partida. Recursos de JavaScript A
+      documentação do React pressupõe alguma familiaridade com a programação na
+      linguagem JavaScript. Você não precisa ser um especialista, mas é mais
+      difícil aprender tanto o React quanto o JavaScript ao mesmo tempo.
+      Recomendamos revisar esta visão geral do JavaScript para verificar seu
+      nível de conhecimento. Levará entre 30 minutos e uma hora, mas você se
+      sentirá mais confiante aprendendo o React.
     </h3>
   </div>
 )
