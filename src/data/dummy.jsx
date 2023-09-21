@@ -411,14 +411,14 @@ export const LinePrimaryYAxis = {
 export const customersGrid = [
   { type: 'checkbox', width: '50' },
   {
-    headerText: 'Name',
+    headerText: 'Nome',
     width: '150',
     template: customerGridImage,
     textAlign: 'Center'
   },
   {
     field: 'ProjectName',
-    headerText: 'Project Name',
+    headerText: 'Projeto',
     width: '150',
     textAlign: 'Center'
   },
@@ -432,21 +432,21 @@ export const customersGrid = [
   },
   {
     field: 'Weeks',
-    headerText: 'Weeks',
+    headerText: 'Semanas',
     width: '100',
     format: 'C2',
     textAlign: 'Center'
   },
   {
     field: 'Budget',
-    headerText: 'Budget',
+    headerText: 'Orçamento',
     width: '100',
     format: 'yMd',
     textAlign: 'Center'
   },
 
   {
-    field: 'Localização',
+    field: 'Location',
     headerText: 'Localização',
     width: '150',
     textAlign: 'Center'
@@ -454,7 +454,7 @@ export const customersGrid = [
 
   {
     field: 'CustomerID',
-    headerText: 'Customer ID',
+    headerText: 'ID',
     width: '120',
     textAlign: 'Center',
     isPrimaryKey: true
@@ -635,7 +635,7 @@ export const chatData = [
   },
   {
     image: avatar,
-    message: 'Jolly Concluídod tasks',
+    message: 'Jolly Concluído tasks',
     desc: 'Assign her new tasks',
     time: '1:12 AM'
   }
@@ -985,7 +985,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Concluídod',
+    Status: 'Concluído',
     CustomerImage: avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
@@ -998,7 +998,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Cancelado',
     CustomerImage: avatar2,
     StatusBg: 'red',
     Weeks: '34',
@@ -1050,7 +1050,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Concluídod',
+    Status: 'Concluído',
     CustomerImage: avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
@@ -1063,7 +1063,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Cancelado',
     CustomerImage: avatar2,
     StatusBg: 'red',
     Weeks: '34',
@@ -1115,7 +1115,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Concluídod',
+    Status: 'Concluído',
     CustomerImage: avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
@@ -1128,7 +1128,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Cancelado',
     CustomerImage: avatar2,
     StatusBg: 'red',
     Weeks: '34',
@@ -1180,7 +1180,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Concluídod',
+    Status: 'Concluído',
     CustomerImage: avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
@@ -1193,7 +1193,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Cancelado',
     CustomerImage: avatar2,
     StatusBg: 'red',
     Weeks: '34',
@@ -1245,7 +1245,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Concluídod',
+    Status: 'Concluído',
     CustomerImage: avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
@@ -1258,7 +1258,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Cancelado',
     CustomerImage: avatar2,
     StatusBg: 'red',
     Weeks: '34',
@@ -1310,7 +1310,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Concluídod',
+    Status: 'Concluído',
     CustomerImage: avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
@@ -1323,7 +1323,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Cancelado',
     CustomerImage: avatar2,
     StatusBg: 'red',
     Weeks: '34',
@@ -1375,7 +1375,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Concluídod',
+    Status: 'Concluído',
     CustomerImage: avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
@@ -1388,7 +1388,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Cancelado',
     CustomerImage: avatar2,
     StatusBg: 'red',
     Weeks: '34',
@@ -1439,7 +1439,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Concluídod',
+    Status: 'Concluído',
     CustomerImage: avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
@@ -1451,7 +1451,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Cancelado',
     CustomerImage: avatar2,
     StatusBg: 'red',
     Weeks: '34',
@@ -2068,7 +2068,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2088,7 +2088,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2129,7 +2129,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2162,7 +2162,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2204,7 +2204,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2224,7 +2224,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2265,7 +2265,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2298,7 +2298,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2340,7 +2340,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2360,7 +2360,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2401,7 +2401,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2434,7 +2434,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2476,7 +2476,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2496,7 +2496,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2537,7 +2537,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2570,7 +2570,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2612,7 +2612,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2632,7 +2632,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2673,7 +2673,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2706,7 +2706,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Cancelado',
+    Status: 'Canceladoado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -3011,7 +3011,7 @@ export const contextMenuItems = [
   'Edit',
   'Delete',
   'Save',
-  'Cancel',
+  'Cancelado',
   'PdfExport',
   'ExcelExport',
   'CsvExport',
