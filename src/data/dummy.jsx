@@ -43,7 +43,6 @@ import product5 from './product5.jpg'
 import product6 from './product6.jpg'
 import product7 from './product7.jpg'
 
-
 export const gridOrderImage = props => (
   <div>
     <img
@@ -2857,7 +2856,8 @@ export const scheduleData = [
     StartTime: '2021-01-11T11:30:00.000Z',
     EndTime: '2021-01-11T13:00:00.000Z',
     CategoryColor: '#00bdae'
-  } , {
+  },
+  {
     Id: 19,
     Subject: 'Ciclo de Vida do Bombus',
     Location: 'San Francisco',
@@ -2905,9 +2905,7 @@ export const scheduleData = [
     EndTime: '2021-01-16T09:00:00.000Z',
     CategoryColor: '#7fa900'
   }
-];
-
-
+]
 
 export const lineChartData = [
   [
