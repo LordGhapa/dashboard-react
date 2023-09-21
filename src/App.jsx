@@ -4,6 +4,12 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 import './App.css'
 import { useStateContext } from './contexts/ContextProvider'
 
+
+
+
+
+
+
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components'
 import {
   Area,
@@ -42,7 +48,10 @@ function App() {
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
           <div className="fixed right-4 bottom-4" style={{ zIndex: '1000' }}>
-            <TooltipComponent content="Settings" position="TopCenter">
+            <TooltipComponent
+              content="Configurações"
+              position="TopCenter"
+            >
               <button
                 type="button"
                 className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white "

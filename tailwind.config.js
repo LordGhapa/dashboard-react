@@ -40,7 +40,7 @@ export default {
         590: '590px'
       },
       backgroundImage: {
-        'hero-pattern': "url('./images/favo.jpg')"
+        'hero-pattern': "url('/images/favo.jpg')"
       },
       flex: {
         2: '2 2 0%'
