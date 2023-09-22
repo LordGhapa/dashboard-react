@@ -3088,8 +3088,8 @@ export const stackedPrimaryYAxis = {
   maximum: 400,
   interval: 100,
   majorTickLines: { width: 0 },
-  majorGridLines: { width: 1 },
-  minorGridLines: { width: 1 },
+  majorGridLines: { width: 2 , color:"black"},
+  minorGridLines: { width: 2 },
   minorTickLines: { width: 0 },
   labelFormat: '{value}'
 }

@@ -25,6 +25,7 @@ export default {
         color: 'rgba(0, 0, 0, 0.1)'
       },
       width: {
+        320: '320px',
         400: '400px',
         760: '760px',
         780: '780px',
@@ -40,7 +41,8 @@ export default {
         590: '590px'
       },
       backgroundImage: {
-        'hero-pattern': "url('/images/favo.jpg')"
+        'hero-pattern': "url('/images/favo.jpg')",
+        'hero-pattern_dark': "url('/images/favo_dark.jpg')"
       },
       flex: {
         2: '2 2 0%'

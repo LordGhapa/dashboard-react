@@ -7,7 +7,8 @@ import { Link, NavLink } from 'react-router-dom'
 import { useStateContext } from '../contexts/ContextProvider'
 
 const Sidebar = () => {
-  const { activeMenu, setActiveMenu, screenSize } = useStateContext()
+  const { activeMenu, setActiveMenu, screenSize, currentColor } =
+    useStateContext()
 
   const handleCloseSideBar = () => {
     if (activeMenu && screenSize <= 900) {
@@ -27,7 +28,7 @@ const Sidebar = () => {
           <div className="flex justify-between items-center">
             <Link
               to="/"
-              onClick={ handleCloseSideBar}
+              onClick={handleCloseSideBar}
               className="flex items-center gap-3 ml-2 mt-4 text-xl font-extrabold -tracking-widest dark:text-white text-slate-900"
             >
               <SiShopware className="text-red-600" /> <span>Buy n Short</span>
@@ -54,6 +55,10 @@ const Sidebar = () => {
                     className={({ isActive }) =>
                       isActive ? activeLink : normalLink
                     }
+                    //  style={({isActive})=>isActive? backgroundColor: currentColor:"" }}
+                    style={({ isActive }) => ({
+                      backgroundColor: isActive ? currentColor : ''
+                    })}
                   >
                     {link.icon}
                     <span className="capitalize">{link.name}</span>

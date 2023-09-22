@@ -5,10 +5,11 @@ import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy'
 
 import { useStateContext } from '../contexts/ContextProvider'
 function Ecommerce() {
+  const { currentColor } = useStateContext()
   return (
     <div className="mt-12">
       <div className="flex flex-wrap lg:flex-nowrap justify-center">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44  rounded-xl w-full lg:w-80 p-8 pt-9 m-3  bg-no-repeat bg-cover bg-center  bg-hero-pattern">
+        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44  rounded-xl w-full lg:w-80 p-8 pt-9 m-3  bg-no-repeat bg-cover bg-center  bg-hero-pattern dark:bg-hero-pattern_dark">
           <div className="flex  justify-between items-center">
             <div>
               <p className="font font-bold text-gray-400 ">Ganhos</p>
@@ -18,7 +19,7 @@ function Ecommerce() {
           <div className="mt-6">
             <Button
               color="white"
-              bgColor="blue"
+              bgColor={ currentColor }
               text="Download"
               borderRadius="10px"
               size="md"
@@ -57,19 +58,19 @@ function Ecommerce() {
          dark:text-gray-200  dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780"
         >
           <div className="flex justify-between ">
-            <p className="font-semibold text-xl ">Receita</p>
+            <p className="font-semibold text-xl">Receita</p>
             <div className="flex items-center gap-4 ">
               <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl ">
                 <span>
                   <GoDotFill />
                 </span>
-                <span>Despesas</span>
+                <span className=' dark:text-gray-200 '>Despesas</span>
               </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl  ">
                 <span>
                   <GoDotFill />
                 </span>
-                <span>Orçamento</span>
+                <span >Orçamento</span>
               </p>
             </div>
           </div>
@@ -82,41 +83,40 @@ function Ecommerce() {
                     23%
                   </span>
                 </p>
-                <p className="text-gray-500 mt-1 ">Orçamento</p>{' '}
+                <p className="text-gray-500 mt-1  dark:text-gray-200 ">Orçamento</p>{' '}
               </div>
 
               <div className="mt-8 ">
                 <p>
                   <span className="text-3xl font-semibold ">$48,532.25 </span>
                 </p>
-                <p className="text-gray-500 mt-1 ">Despesas</p>
+                <p className="text-gray-500 mt-1  dark:text-gray-200 ">Despesas</p>
               </div>
 
               <div className="mt-5">
                 <SparkLine
-                  currentColor="blue"
+                  currentColor={ currentColor }
                   id="line-sparkline"
                   type="Line"
                   height="80px"
                   width="250px"
                   data={SparklineAreaData}
-                  color="blue"
+                  color={ currentColor }
                 />
               </div>
               <div className="mt-10">
                 <Button
                   color={'white'}
-                  bgColor={'blue'}
+                  bgColor={ currentColor }
                   text={'Download'}
                   borderRadius={'10px'}
                 />
               </div>
             </div>
 
-            <div>
+            <div className=' pt-5 rounded-xl dark:bg-gray-200  '>
               <Stacked width="320px" height="360px" />
             </div>
-
           </div>
         </div>
       </div>
