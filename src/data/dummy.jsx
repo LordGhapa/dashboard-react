@@ -187,13 +187,15 @@ export const areaPrimaryYAxis = {
 export const barPrimaryXAxis = {
   valueType: 'Category',
   interval: 1,
-  majorGridLines: { width: 0 }
+  majorGridLines: { width: 1 },
+ 
 }
 export const barPrimaryYAxis = {
-  majorGridLines: { width: 0 },
-  majorTickLines: { width: 0 },
+  majorGridLines: { width: 1 },
+  majorTickLines: { width: 1 },
   lineStyle: { width: 0 },
-  labelStyle: { color: 'transparent' }
+  labelStyle: { color: 'transparent' },
+  title: 'Porcentagem'
 }
 const areaChartData = [
   [
@@ -282,6 +284,7 @@ export const barChartData = [
   ]
 ]
 
+
 export const barCustomSeries = [
   {
     dataSource: barChartData[0],
@@ -326,6 +329,8 @@ export const barCustomSeries = [
     }
   }
 ]
+
+
 export const colorMappingData = [
   [
     { x: 'Jan', y: 6.96 },
