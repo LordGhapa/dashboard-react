@@ -1,12 +1,11 @@
 import { useStateContext } from '../contexts/ContextProvider'
 import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { FiShoppingCart } from 'react-icons/fi'
 import { BsChatLeft } from 'react-icons/bs'
 import { RiNavigationLine } from 'react-icons/ri'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import avatar from '../data/avatar.jpg'
-import { Cart, Chat, Notification, UserProfile } from '.'
+import { Chat, Notification, UserProfile } from '.'
 import { NavButton } from './NavButton'
 import { useEffect } from 'react'
 
@@ -49,12 +48,7 @@ const Navbar = () => {
       />
 
       <div className="flex">
-        <NavButton
-          title="Carrinho"
-          customFunc={() => handleClick('cart')}
-          color={currentColor}
-          icon={<FiShoppingCart />}
-        />
+    
         <NavButton
           title="Chat"
           dotColor="#03c9d7"
@@ -64,7 +58,7 @@ const Navbar = () => {
         />
         <NavButton
           title="Notificações"
-          dotColor="#03c9d7"
+          dotColor="#ffd000"
           customFunc={() => handleClick('notification')}
           color={currentColor}
           icon={<RiNavigationLine />}
@@ -89,7 +83,7 @@ const Navbar = () => {
           </div>
         </TooltipComponent>
 
-        {isClicked.cart && <Cart />}
+    
         {isClicked.chat && <Chat />}
         {isClicked.notification && <Notification />}
         {isClicked.userProfile && <UserProfile />}
