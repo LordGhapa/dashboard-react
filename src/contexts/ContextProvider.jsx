@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react'
 
 const StateContext = createContext()
 
@@ -14,6 +14,13 @@ export const ContextProvider = ({ children }) => {
   const [currentColor, setCurrentColor] = useState('#03C9D7')
   const [currentMode, setCurrentMode] = useState('Light')
   const [themeSettings, setThemeSettings] = useState(false)
+
+  useEffect(() => {
+    const tema = localStorage.getItem('themeMode')
+    if(tema==="Dark"){
+      setCurrentMode(tema)
+    }
+  }, [])
 
   const setMode = e => {
     setCurrentMode(e.target.value)
