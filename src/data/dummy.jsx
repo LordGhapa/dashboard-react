@@ -522,7 +522,7 @@ export const links = [
   },
 
   {
-    title: 'Pages',
+    title: 'Paginas',
     links: [
       {
         name: 'pedidos',
@@ -567,7 +567,7 @@ export const links = [
     ]
   },
   {
-    title: 'Charts',
+    title: 'Gráficos',
     links: [
       {
         name: 'Linha',
