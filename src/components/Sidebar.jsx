@@ -55,7 +55,7 @@ const Sidebar = () => {
                     className={({ isActive }) =>
                       isActive ? activeLink : normalLink
                     }
-                    //  style={({isActive})=>isActive? backgroundColor: currentColor:"" }}
+                   
                     style={({ isActive }) => ({
                       backgroundColor: isActive ? currentColor : ''
                     })}
