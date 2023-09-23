@@ -12,17 +12,11 @@ import {
 import { pieChartData } from '../../data/dummy'
 
 import { Header } from '../../components'
-import { useStateContext } from '../../contexts/ContextProvider'
 
 function Pie() {
-  const { currentMode } = useStateContext()
   return (
-    <div className="m-4 md:m-10 mt-24 p-10 bg-white rounded-3xl dark:bg-secondary-dark-bg">
-      <Header
-        title={'Pizza'}
-        category={'Gráfico'}
-        custonCssTitle={'dark:text-white'}
-      />
+    <div className="m-4 md:m-10 mt-24 p-10 bg-white rounded-3xl">
+      <Header title={'Pizza'} category={'Gráfico'} />
       <AccumulationChartComponent
         id="pizza-charts"
         height="full"
@@ -30,8 +24,7 @@ function Pie() {
         legendSettings={{
           visible: true,
           textStyle: {
-          size:"24px",
-            color: currentMode === 'Dark' ? 'white' : 'black'
+            size: '24px'
           }
         }}
         tooltip={{ enable: true }}

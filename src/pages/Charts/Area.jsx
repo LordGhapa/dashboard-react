@@ -15,17 +15,11 @@ import {
 } from '../../data/dummy'
 
 import { Header } from '../../components'
-import { useStateContext } from '../../contexts/ContextProvider'
 
 const Area = () => {
-  const { currentMode } = useStateContext()
   return (
-    <div className="m-4 md:m-10 mt-24 p-10 bg-white rounded-3xl dark:bg-secondary-dark-bg">
-      <Header
-        title={'Porcentagem Taxa de inflação '}
-        category={'Gráfico'}
-        custonCssTitle={'dark:text-white'}
-      />
+    <div className="m-4 md:m-10 mt-24 p-10 bg-white rounded-3xl ">
+      <Header title={'Porcentagem Taxa de inflação '} category={'Gráfico'} />
 
       <ChartComponent
         id="area-chart"
@@ -35,7 +29,6 @@ const Area = () => {
         primaryYAxis={areaPrimaryYAxis}
         chartArea={{ border: { width: 0 } }}
         tooltip={{ enable: true }}
-        background={currentMode === 'Dark' ? '#33373e' : '#fff'}
       >
         <Inject services={[DateTime, Legend, SplineAreaSeries]} />
         <SeriesCollectionDirective>

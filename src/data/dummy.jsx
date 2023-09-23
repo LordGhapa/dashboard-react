@@ -363,7 +363,8 @@ export const rangeColorMapping = [
 export const ColorMappingPrimaryXAxis = {
   valueType: 'Category',
   majorGridLines: { width: 0 },
-  title: 'Months'
+  title: 'Meses',
+  
 }
 
 export const ColorMappingPrimaryYAxis = {
@@ -371,7 +372,8 @@ export const ColorMappingPrimaryYAxis = {
   majorTickLines: { width: 0 },
   minorTickLines: { width: 0 },
   labelFormat: '{value}°C',
-  title: 'Temperature'
+  title: 'Temperatura',
+ 
 }
 
 export const FinancialPrimaryXAxis = {
@@ -577,10 +579,14 @@ export const links = [
         link: 'area',
         icon: <AiOutlineAreaChart />
       },
-
       {
         name: 'barras',
         link: 'bar',
+        icon: <AiOutlineBarChart />
+      },
+      {
+        name: 'pizza',
+        link: 'pie',
         icon: <AiOutlineBarChart />
       },
       {
@@ -5745,10 +5751,10 @@ export const financialChartData = [
   }
 ]
 export const PyramidData = [
-  { x: 'Sweet Treats', y: 120, text: '120 cal' },
-  { x: 'Milk, Youghnut, Cheese', y: 435, text: '435 cal' },
-  { x: 'Vegetables', y: 470, text: '470 cal' },
-  { x: 'Meat, Poultry, Fish', y: 475, text: '475 cal' },
-  { x: 'Fruits', y: 520, text: '520 cal' },
-  { x: 'Bread, Rice, Pasta', y: 930, text: '930 cal' }
+  { x: 'Doces', y: 120, text: '120 cal' },
+  { x: 'Vegetais', y: 470, text: '470 cal' },
+  { x: 'Leite, Iogurte, Queijo', y: 435, text: '435 cal' },
+  { x: 'Carne, Aves, Peixe', y: 475, text: '475 cal' },
+  { x: 'Frutas', y: 520, text: '520 cal' },
+  { x: 'Pão, Arroz, Macarrão', y: 930, text: '930 cal' }
 ]
