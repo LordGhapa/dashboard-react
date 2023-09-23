@@ -1,7 +1,6 @@
-import { BsCurrencyDollar } from 'react-icons/bs'
 import { GoDotFill } from 'react-icons/go'
-import { Pie, Stacked, Button, SparkLine } from '../components'
-import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy'
+import { Stacked, Button, SparkLine } from '../components'
+import { earningData, SparklineAreaData } from '../data/dummy'
 
 import { useStateContext } from '../contexts/ContextProvider'
 function Ecommerce() {
@@ -19,7 +18,7 @@ function Ecommerce() {
           <div className="mt-6">
             <Button
               color="white"
-              bgColor={ currentColor }
+              bgColor={currentColor}
               text="Download"
               borderRadius="10px"
               size="md"
@@ -64,13 +63,13 @@ function Ecommerce() {
                 <span>
                   <GoDotFill />
                 </span>
-                <span className=' dark:text-gray-200 '>Despesas</span>
+                <span className=" dark:text-gray-200 ">Despesas</span>
               </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl  ">
                 <span>
                   <GoDotFill />
                 </span>
-                <span >Orçamento</span>
+                <span>Orçamento</span>
               </p>
             </div>
           </div>
@@ -83,38 +82,42 @@ function Ecommerce() {
                     23%
                   </span>
                 </p>
-                <p className="text-gray-500 mt-1  dark:text-gray-200 ">Orçamento</p>{' '}
+                <p className="text-gray-500 mt-1  dark:text-gray-200 ">
+                  Orçamento
+                </p>{' '}
               </div>
 
               <div className="mt-8 ">
                 <p>
                   <span className="text-3xl font-semibold ">$48,532.25 </span>
                 </p>
-                <p className="text-gray-500 mt-1  dark:text-gray-200 ">Despesas</p>
+                <p className="text-gray-500 mt-1  dark:text-gray-200 ">
+                  Despesas
+                </p>
               </div>
 
               <div className="mt-5">
                 <SparkLine
-                  currentColor={ currentColor }
+                  currentColor={currentColor}
                   id="line-sparkline"
                   type="Line"
                   height="80px"
                   width="250px"
                   data={SparklineAreaData}
-                  color={ currentColor }
+                  color={currentColor}
                 />
               </div>
               <div className="mt-10">
                 <Button
                   color={'white'}
-                  bgColor={ currentColor }
+                  bgColor={currentColor}
                   text={'Download'}
                   borderRadius={'10px'}
                 />
               </div>
             </div>
 
-            <div className=' pt-5 rounded-xl dark:bg-gray-200  '>
+            <div className=" pt-5 rounded-xl dark:bg-gray-200  ">
               <Stacked width="320px" height="360px" />
             </div>
           </div>
