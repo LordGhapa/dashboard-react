@@ -2083,7 +2083,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Canceladoado',
+    Status: 'Cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2103,7 +2103,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2144,7 +2144,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2177,7 +2177,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2219,7 +2219,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2239,7 +2239,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2280,7 +2280,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2313,7 +2313,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2355,7 +2355,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2375,7 +2375,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2416,7 +2416,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2449,7 +2449,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2491,7 +2491,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2511,7 +2511,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2552,7 +2552,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2585,7 +2585,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2627,7 +2627,7 @@ export const ordersData = [
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
     Localização: 'Germany',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product4
   },
@@ -2647,7 +2647,7 @@ export const ordersData = [
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage: product2
   },
@@ -2688,7 +2688,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'
@@ -2721,7 +2721,7 @@ export const ordersData = [
     TotalAmount: 122.99,
     OrderItems: 'Watch',
     Localização: 'USA',
-    Status: 'Canceladoado',
+    Status: 'cancelado',
     StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*'

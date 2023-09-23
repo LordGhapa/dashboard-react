@@ -7,7 +7,7 @@ function ColorPicker() {
       args.currentValue.hex
   }
   return (
-    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl ">
+    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl  overflow-x-hidden">
       <Header title={'Seletor de cores'} category={'App'} />
 
       <div className="text-center">

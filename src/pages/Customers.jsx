@@ -17,7 +17,7 @@ import { Header } from '../components'
 function Customers() {
   const editing = { allowDeleting: true, allowEditing: true }
   return (
-    <div className="m-2 md:m-10 p-2 md:p-10 bg-white rounded-3xl">
+    <div className="m-2 md:m-10 p-4 mt-20 md:p-10 bg-white rounded-3xl">
       <Header title="Clientes" category="Página" />
       <GridComponent
         dataSource={customersData}

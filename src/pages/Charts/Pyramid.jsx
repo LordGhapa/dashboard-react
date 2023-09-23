@@ -15,12 +15,12 @@ import { Header } from '../../components'
 
 function Pyramid() {
   return (
-    <div className="m-4 md:m-10 mt-24 p-10 bg-white rounded-3xl">
+    <div className="md:m-10 mt-24  bg-white rounded-3xl">
       <Header title={'Piramide'} category={'Gráfico'} />
       <AccumulationChartComponent
         id="pyramid-charts"
         height="full"
-        width="100%"
+        width="full"
         legendSettings={{
           visible: true,
           textStyle: {

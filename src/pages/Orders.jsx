@@ -19,7 +19,7 @@ import { Header } from '../components'
 function Orders() {
   const editing = { allowDeleting: true, allowEditing: true };
   return (
-    <div className="m-2 md:m-10 p-2 md:p-10 bg-white rounded-3xl">
+    <div className="m-2 md:m-10 p-4 mt-20 md:p-10 bg-white rounded-3xl ">
       <Header title="Pedidos" category="Página" />
       <GridComponent
         id="gridcomp"
