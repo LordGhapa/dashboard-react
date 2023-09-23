@@ -8,9 +8,11 @@ import Button from './Button'
 const UserProfile = () => {
   const { currentColor, handleClick } = useStateContext()
   return (
-    <div className="absolute top-11 right-1 w-320 p-2 flex flex-col rounded-md bg-white dark:bg-secondary-dark-bg dark:text-white z-10 ">
-      <div className="flex items-center justify-between">
-        UserProfile
+    <div className="absolute top-11 sm:right-5 right-1 w-320 p-2 flex flex-col rounded-md bg-white dark:bg-secondary-dark-bg dark:text-white z-10 ">
+      <div className="flex items-center justify-between ">
+       <p className='font-semibold text-xl dark:text-gray-200'>
+       Perfil
+        </p>
         <button
           type="button"
           onClick={() => handleClick()}

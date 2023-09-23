@@ -11,6 +11,7 @@ export default {
       fontSize: {
         14: '14px'
       },
+      
       backgroundColor: {
         'main-bg': '#FAFBFB',
         'main-dark-bg': '#20232A',

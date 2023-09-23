@@ -52,6 +52,8 @@ function Ecommerce() {
       </div>
       {/* Receitas */}
       <div className="flex gap-10  flex-wrap justify-center">
+
+
         <div
           className="bg-white
          dark:text-gray-200  dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780"
@@ -74,6 +76,7 @@ function Ecommerce() {
             </div>
           </div>
           <div className="mt-10 flex gap-10 flex-wrap justify-center ">
+
             <div className="border-r-1 border-color m-4 pr-10 ">
               <div>
                 <p>
@@ -107,6 +110,7 @@ function Ecommerce() {
                   color={currentColor}
                 />
               </div>
+
               <div className="mt-10">
                 <Button
                   color={'white'}
@@ -120,8 +124,11 @@ function Ecommerce() {
             <div className=" pt-5 rounded-xl dark:bg-gray-200  ">
               <Stacked width="320px" height="360px" />
             </div>
+
           </div>
         </div>
+
+
       </div>
     </div>
   )

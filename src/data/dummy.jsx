@@ -632,26 +632,26 @@ export const cartData = [
 export const chatData = [
   {
     image: avatar2,
-    message: 'Roman Joined the Team!',
-    desc: 'Congratulate him',
+    message: 'Roman se juntou à equipe!',
+    desc: 'De as boas vindas',
     time: '9:08 AM'
   },
   {
     image: avatar3,
-    message: 'New message received',
-    desc: 'Salma sent you new message',
+    message: 'Nova mensagem recebida',
+    desc: 'Salma te enviou uma nova mensagem',
     time: '11:56 AM'
   },
   {
     image: avatar4,
-    message: 'New Payment received',
-    desc: 'Check your earnings',
+    message: 'Novo pagamento recebido',
+    desc: 'Verifique seus ganhos',
     time: '4:39 AM'
   },
   {
     image: avatar,
-    message: 'Jolly Concluído tasks',
-    desc: 'Assign her new tasks',
+    message: 'Jolly Concluído tarefas',
+    desc: 'Atribua novas tarefas a ela',
     time: '1:12 AM'
   }
 ]
@@ -883,22 +883,22 @@ export const themeColors = [
 export const userProfileData = [
   {
     icon: <BsCurrencyDollar />,
-    title: 'My Profile',
-    desc: 'Account Settings',
+    title: 'Meu perfil',
+    desc: 'Configurações de Conta',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB'
   },
   {
     icon: <BsShield />,
-    title: 'My Inbox',
-    desc: 'Messages & Emails',
+    title: 'Minha caixa de entrada',
+    desc: 'Mensagens e e-mails',
     iconColor: 'rgb(0, 194, 146)',
     iconBg: 'rgb(235, 250, 242)'
   },
   {
     icon: <FiCreditCard />,
-    title: 'My Tasks',
-    desc: 'To-do and Daily Tasks',
+    title: 'Minhas tarefas',
+    desc: 'Tarefas Diárias',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)'
   }
