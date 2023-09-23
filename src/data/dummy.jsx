@@ -9,7 +9,6 @@ import {
 import {
   FiShoppingBag,
   FiEdit,
-  FiPieChart,
   FiBarChart,
   FiCreditCard,
   FiStar,
@@ -25,7 +24,7 @@ import {
 } from 'react-icons/bs'
 import { BiColorFill } from 'react-icons/bi'
 import { IoMdContacts } from 'react-icons/io'
-import { RiContactsLine, RiStockLine } from 'react-icons/ri'
+import { RiContactsLine} from 'react-icons/ri'
 import { MdOutlineSupervisorAccount } from 'react-icons/md'
 import { HiOutlineRefresh } from 'react-icons/hi'
 import { TiTick } from 'react-icons/ti'
@@ -187,8 +186,7 @@ export const areaPrimaryYAxis = {
 export const barPrimaryXAxis = {
   valueType: 'Category',
   interval: 1,
-  majorGridLines: { width: 1 },
- 
+  majorGridLines: { width: 1 }
 }
 export const barPrimaryYAxis = {
   majorGridLines: { width: 1 },
@@ -284,7 +282,6 @@ export const barChartData = [
   ]
 ]
 
-
 export const barCustomSeries = [
   {
     dataSource: barChartData[0],
@@ -329,7 +326,6 @@ export const barCustomSeries = [
     }
   }
 ]
-
 
 export const colorMappingData = [
   [
@@ -517,6 +513,7 @@ export const links = [
     links: [
       {
         name: 'ecommerce',
+        link: 'ecommerce',
         icon: <FiShoppingBag />
       }
     ]
@@ -526,15 +523,18 @@ export const links = [
     title: 'Pages',
     links: [
       {
-        name: 'orders',
+        name: 'pedidos',
+        link: 'orders',
         icon: <AiOutlineShoppingCart />
       },
       {
-        name: 'employees',
+        name: 'Funcionários',
+        link: 'employees',
         icon: <IoMdContacts />
       },
       {
-        name: 'customers',
+        name: 'Clientes',
+        link: 'customers',
         icon: <RiContactsLine />
       }
     ]
@@ -543,19 +543,23 @@ export const links = [
     title: 'Apps',
     links: [
       {
-        name: 'calendar',
+        name: 'calendario',
+        link: 'calendar',
         icon: <AiOutlineCalendar />
       },
       {
         name: 'kanban',
+        link: 'kanban',
         icon: <BsKanban />
       },
       {
         name: 'editor',
+        link: 'editor',
         icon: <FiEdit />
       },
       {
-        name: 'color-picker',
+        name: 'seletor de cores',
+        link: 'color-picker',
         icon: <BiColorFill />
       }
     ]
@@ -564,36 +568,34 @@ export const links = [
     title: 'Charts',
     links: [
       {
-        name: 'line',
+        name: 'Linha',
+        link: 'line',
         icon: <AiOutlineStock />
       },
       {
         name: 'area',
+        link: 'area',
         icon: <AiOutlineAreaChart />
       },
 
       {
-        name: 'bar',
+        name: 'barras',
+        link: 'bar',
         icon: <AiOutlineBarChart />
       },
       {
-        name: 'pie',
-        icon: <FiPieChart />
-      },
-      {
-        name: 'financial',
-        icon: <RiStockLine />
-      },
-      {
-        name: 'color-mapping',
+        name: 'Mapa de Calor',
+        link: 'color-mapping',
         icon: <BsBarChart />
       },
       {
-        name: 'pyramid',
+        name: 'piramide',
+        link: 'pyramid',
         icon: <GiLouvrePyramid />
       },
       {
-        name: 'stacked',
+        name: 'empilhado',
+        link: 'stacked',
         icon: <AiOutlineBarChart />
       }
     ]
@@ -3093,7 +3095,7 @@ export const stackedPrimaryYAxis = {
   maximum: 400,
   interval: 100,
   majorTickLines: { width: 0 },
-  majorGridLines: { width: 2 , color:"black"},
+  majorGridLines: { width: 2, color: 'black' },
   minorGridLines: { width: 2 },
   minorTickLines: { width: 0 },
   labelFormat: '{value}'
