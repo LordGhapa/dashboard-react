@@ -3000,13 +3000,13 @@ export const lineCustomSeries = [
 ]
 
 export const pieChartData = [
-  { x: 'Labour', y: 18, text: '18%' },
+  { x: 'Trabalho', y: 18, text: '18%' },
   { x: 'Legal', y: 8, text: '8%' },
-  { x: 'Production', y: 15, text: '15%' },
-  { x: 'License', y: 11, text: '11%' },
-  { x: 'Facilities', y: 18, text: '18%' },
-  { x: 'Taxes', y: 14, text: '14%' },
-  { x: 'Insurance', y: 16, text: '16%' }
+  { x: 'Produção', y: 15, text: '15%' },
+  { x: 'Licensa', y: 11, text: '11%' },
+  { x: 'Instalações', y: 18, text: '18%' },
+  { x: 'Taxas', y: 14, text: '14%' },
+  { x: 'Seguro', y: 16, text: '16%' }
 ]
 
 export const contextMenuItems = [

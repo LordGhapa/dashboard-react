@@ -1,6 +1,9 @@
+
+
 const Footer = () => {
+
   return (
-    <footer className="text-center">
+    <footer className="text-center dark:text-white" >
       <p>Todos os direitos reservados a Buy n Short</p>
       <p>
         Desenvolvido por Felipe Lacerda{' '}
