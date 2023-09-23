@@ -61,24 +61,22 @@ function App() {
               </button>
             </TooltipComponent>
           </div>
-          {activeMenu ? (
-            <div
-              className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white
-          "
-            >
+
+          {activeMenu ? ( 
+             <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white " style={{zIndex:"99999"}}>
               <Sidebar />
             </div>
-          ) : (
-            <div className="w-0 dark:bg-secondary-dark-bg">
-              {' '}
-              <Sidebar />
+          ) : ( <div className="w-0 dark:bg-secondary-dark-bg">
+             <Sidebar />
             </div>
           )}
+{/* teste responsividade do meu lateral */}
+    
           <div
-            className={`dark:bg-main-dark-bg bg-main-bg min-h-screen w-full ${
-              activeMenu ? ' md:ml-72' : ' flex-2'
-            }`}
+            className={`dark:bg-main-dark-bg bg-main-bg min-h-screen w-full `}
           >
+
+
             <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
               <Navbar />
             </div>

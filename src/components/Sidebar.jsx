@@ -7,11 +7,11 @@ import { Link, NavLink } from 'react-router-dom'
 import { useStateContext } from '../contexts/ContextProvider'
 
 const Sidebar = () => {
-  const { activeMenu, setActiveMenu, screenSize, currentColor } =
+  const { activeMenu, setActiveMenu,currentColor } =
     useStateContext()
 
   const handleCloseSideBar = () => {
-    if (activeMenu && screenSize <= 900) {
+    if (activeMenu ) {
       setActiveMenu(false)
     }
   }
@@ -37,7 +37,7 @@ const Sidebar = () => {
               <button
                 type="button"
                 onClick={() => setActiveMenu(s => !s)}
-                className="text-xl rounded-full p-3 hover:bg-light-gray mt-4 block md:hidden"
+                className="text-xl rounded-full p-3 hover:bg-light-gray mt-4 block "
               >
                 <MdOutlineCancel />
               </button>

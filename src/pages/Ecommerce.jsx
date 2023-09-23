@@ -55,8 +55,7 @@ function Ecommerce() {
 
 
         <div
-          className="bg-white
-         dark:text-gray-200  dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780"
+          className="bg-white dark:text-gray-200  dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl  w-[100%] max-w-3xl"
         >
           <div className="flex justify-between ">
             <p className="font-semibold text-xl">Receita</p>

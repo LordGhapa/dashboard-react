@@ -7,36 +7,15 @@ import { MdKeyboardArrowDown } from 'react-icons/md'
 import avatar from '../data/avatar.jpg'
 import { Chat, Notification, UserProfile } from '.'
 import { NavButton } from './NavButton'
-import { useEffect } from 'react'
+
 
 const Navbar = () => {
   const {
-    activeMenu,
     setActiveMenu,
     isClicked,
     handleClick,
-    screenSize,
-    setScreenSize,
     currentColor
   } = useStateContext()
-
-  useEffect(() => {
-    const handleResize = () => setScreenSize(window.innerWidth)
-
-    window.addEventListener('resize', handleResize)
-    handleResize()
-    return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [setScreenSize])
-
-  useEffect(() => {
-    if (screenSize <= 900) {
-      setActiveMenu(false)
-    } else {
-      setActiveMenu(true)
-    }
-  }, [screenSize, setActiveMenu])
 
   return (
     <div className="flex justify-between p-2 md:mx-6 relative">
@@ -48,7 +27,6 @@ const Navbar = () => {
       />
 
       <div className="flex">
-    
         <NavButton
           title="Chat"
           dotColor="#03c9d7"
@@ -83,7 +61,6 @@ const Navbar = () => {
           </div>
         </TooltipComponent>
 
-    
         {isClicked.chat && <Chat />}
         {isClicked.notification && <Notification />}
         {isClicked.userProfile && <UserProfile />}
